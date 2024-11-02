@@ -2,8 +2,6 @@
 	import Calendar from 'lucide-svelte/icons/calendar';
 	import House from 'lucide-svelte/icons/house';
 	import Inbox from 'lucide-svelte/icons/inbox';
-	import Search from 'lucide-svelte/icons/search';
-	import Settings from 'lucide-svelte/icons/settings';
 	import * as Sidebar from '$lib/components/ui/sidebar/index.js';
 
 	// Menu items.
@@ -17,11 +15,6 @@
 			title: 'Dashboard',
 			url: '/dashboard',
 			icon: Inbox
-		},
-		{
-			title: 'Calendar',
-			url: '#',
-			icon: Calendar
 		}
 	];
 </script>
