@@ -7,6 +7,8 @@
 	import '../app.css';
 
 	let { children } = $props();
+
+	let date = new Date().getFullYear();
 </script>
 
 <Sidebar.Provider>
@@ -33,4 +35,7 @@
 	<main>
 		{@render children()}
 	</main>
+	<footer>
+		Copyright {date} Rohan Kewalramani. All rights reserved.
+	</footer>
 </Sidebar.Provider>
