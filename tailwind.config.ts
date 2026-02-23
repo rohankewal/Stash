@@ -59,6 +59,14 @@ const config: Config = {
 					border: "hsl(var(--sidebar-border))",
 					ring: "hsl(var(--sidebar-ring))",
         		},
+				success: {
+					DEFAULT: "hsl(142 71% 35%)",
+					foreground: "hsl(142 71% 35%)",
+				},
+				danger: {
+					DEFAULT: "hsl(0 72% 51%)",
+					foreground: "hsl(0 72% 51%)",
+				},
 			},
 			borderRadius: {
 				xl: "calc(var(--radius) + 4px)",
